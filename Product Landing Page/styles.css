@@ -1,0 +1,149 @@
+/* Global Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  position: relative; /* Added */
+}
+
+/* Header Styles */
+#header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  position: fixed; /* Added */
+  top: 0; /* Added */
+  width: 100%; /* Added */
+  z-index: 1000; /* Added */
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+#header-img {
+  width: 50px;
+  height: 50px;
+  margin-right: 10px;
+}
+
+/* Navigation Styles */
+#nav-bar {
+  text-align: right;
+}
+
+.menu {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-item {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.nav-link {
+  color: #fff;
+  text-decoration: none;
+}
+
+.nav-link:hover {
+  text-decoration: underline;
+}
+
+/* Form Styles */
+#form-header {
+  padding: 20px;
+}
+
+#form {
+  display: flex;
+  align-items: center;
+}
+
+#email {
+  padding: 10px;
+  margin-right: 10px;
+  width: 250px;
+}
+
+#submit {
+  padding: 10px 20px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+#submit:hover {
+  background-color: #555;
+}
+
+/* Playlist Styles */
+#playlists {
+  padding: 20px;
+  margin-top: 80px; /* Adjusted to accommodate the fixed header */
+}
+
+.playlist {
+  margin-bottom: 20px;
+}
+
+/* Artist Styles */
+#artists {
+  padding: 20px;
+}
+
+.artist {
+  margin-bottom: 30px;
+}
+
+.title-artist {
+  margin-bottom: 10px;
+}
+
+.listen {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #333;
+  color: #fff;
+  text-decoration: none;
+}
+
+.listen:hover {
+  background-color: #555;
+}
+
+/* Footer Styles */
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+}
+
+#footer-links {
+  list-style-type: none;
+  padding: 0;
+}
+
+.foo-link {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.foo-link a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.foo-link a:hover {
+  text-decoration: underline;
+}
+
+/* Media Query */
+@media only screen and (max-width: 768px) {
+  /* Adjust styles for smaller screens here */
+}

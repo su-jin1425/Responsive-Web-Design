@@ -1,0 +1,110 @@
+body {
+    background-color: #f2f2f2;
+    font-family: -apple-system, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    background-color: #ffffff;
+    border-radius: 10px;
+    margin: 20px auto;
+    max-width: 800px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+#title {
+    font-size: 2.5em;
+    color: #333333;
+    margin-bottom: 10px;
+}
+
+#subtitle {
+    font-size: 1.2em;
+    color: #666666;
+    margin-bottom: 20px;
+}
+
+#img-div {
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    width: 100%;
+    height: auto;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+#image {
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+    object-fit: cover;
+    display: block;
+    border-radius: 10px;
+}
+
+#img-caption {
+    margin-top: 10px;
+    font-size: 0.9em;
+    color: #555555;
+}
+
+figure {
+    margin: 0;
+    width: 96%;
+    height: 95%;
+    padding: 10px;
+}
+
+#tribute-info {
+    padding: 20px 40px;
+    text-align: left;
+}
+
+#tribute-info h1 {
+    font-size: 1.5rem;
+    color: #333333;
+    margin-bottom: 20px;
+}
+
+.bold {
+    font-weight: 800;
+    color: #333333;
+}
+
+li {
+    padding-top: 10px;
+    color: #555555;
+}
+
+#quote {
+    margin: 20px 0;
+    font-size: 1.2em;
+    color: #333333;
+}
+
+#footer {
+    margin-top: 20px;
+}
+
+#footer h1 {
+    font-size: 1.1rem;
+    color: #333333;
+}
+
+a {
+    color: #2470a0;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+p {
+    color: #555555;
+}

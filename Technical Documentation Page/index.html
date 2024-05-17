@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Documentation</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="menu">
+        <header class="border title">CSS Documentation</header>
+        <nav id="navbar">
+            <header class="nav-title">Documentation Topics</header>
+            <ul>
+                <li><a class="nav-link" href="#Introduction">Introduction</a></li>
+                <li><a class="nav-link" href="#Selectors">Selectors</a></li>
+                <li><a class="nav-link" href="#Flexbox">Flexbox</a></li>
+                <li><a class="nav-link" href="#Colors">Colors</a></li>
+                <li><a class="nav-link" href="#Text_Styles">Text Styles</a></li>
+                <li><a class="nav-link" href="#Media_Queries">Media Queries</a></li>
+                <li><a class="nav-link" href="#References">References</a></li>
+            </ul>
+        </nav>
+    </div>
+    <main id="main-doc">
+        <section class="main-section" id="Introduction">
+            <header class="title">Introduction</header>
+            <p>CSS are stylesheets used to give styles to websites.</p>
+            <p>CSS means Cascading Stylesheets.</p>
+            <p>Some CSS attributes are:</p>
+            <ul>
+                <li>font-family</li>
+                <li>font-size</li>
+                <li>color</li>
+                <li>width</li>
+                <li>padding</li>
+            </ul>
+        </section>
+
+        <section class="main-section" id="Selectors">
+            <header class="title">Selectors</header>
+            <p>To style HTML elements in CSS, selectors are key.</p>
+            <p>There are different types of selectors such as class selectors, id selectors, and element selectors.</p>
+            <p>- Class selector syntax:</p>
+            <code>.className { ... }</code>
+            <p>- Id selector syntax:</p>
+            <code>#idName { ... }</code>
+            <p>- Element selector syntax:</p>
+            <code>elementName { ... }</code>
+        </section>
+
+        <section class="main-section" id="Flexbox">
+            <header class="title">Flexbox</header>
+            <p>Flexbox is a layout module that allows for the efficient distribution of space within a container.</p>
+            <p>Some Flexbox properties are:</p> 
+            <p><strong>justify-content</strong>: It takes values like:</p>
+            <code>flex-start, flex-end</code>     
+            <p><strong>align-items</strong>: It takes values like:</p> 
+            <code>flex-start, center, flex-end</code>
+            <p><strong>flex-direction</strong>: It takes values like:</p> 
+            <code>column, row, column-reverse, row-reverse</code>
+        </section>
+
+        <section class="main-section" id="Colors">
+            <header class="title">Colors</header>
+            <p>In CSS, you can set the color of elements and text.</p>
+            <p>There are three common methods to specify colors:</p>
+            <ul>
+                <li><strong>Named colors</strong></li>
+                <li><strong>RGB</strong></li>
+                <li><strong>Hexadecimal</strong></li>
+            </ul>
+        </section>
+
+        <section class="main-section" id="Text_Styles">
+            <header class="title">Text Styles</header>
+            <p>To style text, you can use the following properties:</p>
+            <ul>
+                <li><strong>font-family</strong></li>
+                <li><strong>font-size</strong></li>
+                <li><strong>font-weight</strong></li>
+                <li><strong>line-height</strong></li>
+                <li><strong>color</strong></li>
+            </ul>
+        </section>
+
+        <section class="main-section" id="Media_Queries">
+            <header class="title">Media Queries</header>
+            <p>Media queries are used to make websites responsive.</p>
+            <p>- The media query syntax:</p>
+            <code>@media (max-width: 600px) { ... }</code>
+        </section>
+
+        <section class="main-section" id="References">
+            <header class="title">References</header>
+            <p>You can get more information at <a href="https://www.w3schools.com/css/default.asp">W3Schools</a></p>
+        </section>
+        <p>Created by Sujith S</p>
+    </main>
+</body>
+</html>
